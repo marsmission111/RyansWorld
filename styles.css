@@ -1,0 +1,209 @@
+html {
+	padding-top: 25px;
+	background-color: rgb(38,38,38);
+}
+
+.header {
+	position: fixed;
+    height: 40px;
+	background:rgb(25,25,25);
+    margin:0px auto;
+    top: 0px;
+    width: 100%;
+}
+
+.textLeft {
+	font-size: 18.5px;
+	font-family: 'Orbitron', sans-serif;
+	float: left;
+	padding-left: 10%;
+	padding-top: 9px; 
+}
+
+.textRight {
+	font-size: 18.5px;
+	font-family: 'Orbitron', sans-serif;
+	float: right;
+	padding-right: 10%;
+	padding-top: 9px;  
+}
+
+a {
+	color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+body {
+	margin: 0px;
+}
+.imageHeader {
+	background-image: url("assets/unityScriptingDarker.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.textHeader {
+	color: white;
+	font-size: 83px;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	padding: 300px;
+}
+
+button[type="submit"] {
+	background-color: #555555;
+	font-family: 'Orbitron', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+	background: rgb(25,25,25);
+}
+
+.about {
+	font-family: 'VT323', monospace;
+	color: white;
+	text-align: center;
+}
+
+h3 { 
+	font-weight: normal;
+	font-size: 80px;
+	text-align: center;
+}
+
+.textAbout{
+	font-family: 'VT323', monospace;
+	color: white;
+	text-align: center;
+	height: 425px;
+}
+p {
+	position: absolute;
+	line-height: 1.5;
+	font-size: 25px;
+	padding-right: 20px;
+}
+
+img {
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+span {
+	padding: 20px;
+}
+
+
+footer {
+	background:rgb(25,25,25);
+	font-size: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 1%;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+}
+
+/* these are found in explore.html */
+
+.explore {
+	padding: 13%;
+	padding-left: 20%;
+	padding-right: 20%;
+	height: 400px;
+}
+
+h4 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	padding: 10px;
+}
+.games {
+	border-radius: 25px;
+	float: left;
+	width: 300px;
+    height: 400px;
+    background-color: rgb(30,30,30);
+    box-shadow: 10px 10px 5px black;
+}
+
+.games:hover {
+	border-radius: 25px;
+    box-shadow: 15px 15px 7px black;
+}
+
+.imgGame {
+	display: block;
+    margin: 0 auto;
+    height: 75%;
+    width: 89%;
+    padding-top: 3%;
+}
+
+.programs {
+	border-radius: 25px;
+	float: right;
+	width: 300px;
+    height: 400px;
+    background-color: rgb(30,30,30);
+    box-shadow: 10px 10px 5px black;
+}
+
+.programs:hover {
+	border-radius: 25px;
+    box-shadow: 15px 15px 7px black;
+}
+
+/* these are for the game info pages*/
+
+.gameInfo {
+	color: white;
+	font-family: 'VT323', monospace;
+	size: 20px;
+	height: 900px;
+}
+
+.gameInfoPicture {
+	height: 600px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	padding-right: 30px;
+}
+
+.gameDownload {
+	text-align: center;
+	height: 15px;
+}
+
+.downloadLinks {
+	color: white;
+	font-family: 'VT323', monospace;
+	size: 20px;
+	height: 800px;
+	text-align: center;
+}
