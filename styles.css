@@ -5,11 +5,11 @@ html {
 
 .header {
 	position: fixed;
-    height: 40px;
+    	height: 40px;
 	background:rgb(25,25,25);
-    margin:0px auto;
-    top: 0px;
-    width: 100%;
+    	margin:0px auto;
+    	top: 0px;
+    	width: 100%;
 }
 
 .textLeft {
@@ -33,11 +33,11 @@ a {
 }
 
 a:link {
-    text-decoration: none;
+    	text-decoration: none;
 }
 
 a:hover {
-    color: gray;
+    	color: gray;
 }
 
 body {
@@ -66,13 +66,13 @@ h1 {
 button[type="submit"] {
 	background-color: #555555;
 	font-family: 'Orbitron', sans-serif;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    	border: none;
+    	color: white;
+    	padding: 15px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 16px;
 }
 
 button[type="submit"]:hover {
@@ -147,36 +147,36 @@ h4 {
 	border-radius: 25px;
 	float: left;
 	width: 300px;
-    height: 400px;
-    background-color: rgb(30,30,30);
-    box-shadow: 10px 10px 5px black;
+    	height: 400px;
+    	background-color: rgb(30,30,30);
+    	box-shadow: 10px 10px 5px black;
 }
 
 .games:hover {
 	border-radius: 25px;
-    box-shadow: 15px 15px 7px black;
+    	box-shadow: 15px 15px 7px black;
 }
 
 .imgGame {
 	display: block;
-    margin: 0 auto;
-    height: 75%;
-    width: 89%;
-    padding-top: 3%;
+    	margin: 0 auto;
+    	height: 75%;
+    	width: 89%;
+    	padding-top: 3%;
 }
 
 .programs {
 	border-radius: 25px;
 	float: right;
 	width: 300px;
-    height: 400px;
-    background-color: rgb(30,30,30);
-    box-shadow: 10px 10px 5px black;
+    	height: 400px;
+    	background-color: rgb(30,30,30);
+    	box-shadow: 10px 10px 5px black;
 }
 
 .programs:hover {
 	border-radius: 25px;
-    box-shadow: 15px 15px 7px black;
+    	box-shadow: 15px 15px 7px black;
 }
 
 /* these are for the game info pages*/
